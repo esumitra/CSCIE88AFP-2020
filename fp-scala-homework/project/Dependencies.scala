@@ -21,6 +21,11 @@ object Dependencies {
     "co.fs2" %% "fs2-core" % fs2Version,
     "co.fs2" %% "fs2-io" % fs2Version,
 
+    // akka streams and alpakka
+    "com.typesafe.akka" %% "akka-stream" % "2.5.23",
+    "com.lightbend.akka" %% "akka-stream-alpakka-file" % "1.0.2",
+    "com.lightbend.akka" %% "akka-stream-alpakka-s3" % "1.0.2",
+
     // support for typesafe configuration
     "com.github.pureconfig" %% "pureconfig" % "0.10.1",
 
