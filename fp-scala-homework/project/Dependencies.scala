@@ -26,6 +26,10 @@ object Dependencies {
     "com.lightbend.akka" %% "akka-stream-alpakka-file" % "1.0.2",
     "com.lightbend.akka" %% "akka-stream-alpakka-s3" % "1.0.2",
 
+    // akka streams and kafka
+    "org.apache.kafka" % "kafka-clients" % "2.4.0",
+    "com.typesafe.akka" %% "akka-stream-kafka" % "2.0.0",
+
     // support for typesafe configuration
     "com.github.pureconfig" %% "pureconfig" % "0.10.1",
 
